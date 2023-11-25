@@ -1,0 +1,16 @@
+At least 2 years of experience with Angular or reactjs
+Knowledge of development methodologies and design templates used 
+in the development of the client part of web applications
+Experience of working with a team using Scrum/Kanban methodologies
+Experience in evaluating project tasks
+Knowledge of TypeScript
+Solid understanding of RxJS
+Experience with REST API
+Experience in using the component library for UI (Angular Material, PrimeNg,
+ DevExtreme, Ng-bootstrap, Ngx-bootstrap, Kendo)
+Knowledge of state management (NgRx)
+Proficiency in both written and spoken English should be at least at the Upper Intermediate (B2)
+
+
+
+very important
