@@ -1,0 +1,243 @@
+# source: https://en.wikipedia.org/wiki/Epsom_Derby#Winners
+Year	Winner	Jockey	Trainer	Owner	Dist.	Time
+1780	Diomed	Sam Arnull	R. Teasdale	Sir Charles Bunbury		
+1781	Young Eclipse	Charles Hindley		Dennis O'Kelly		
+1782	Assassin	Sam Arnull	Frank Neale	3rd Earl of Egremont		
+1783	Saltram	Charles Hindley	Frank Neale	John Parker		
+1784	Serjeant	John Arnull		Dennis O'Kelly		
+1785	Aimwell	Charles Hindley	John Pratt	1st Earl of Clermont		
+1786	Noble	J. White	Frank Neale	Tommy Panton		
+1787	Sir Peter Teazle	Sam Arnull	Saunders	12th Earl of Derby		
+1788	Sir Thomas	William South	Frank Neale	Prince of Wales		
+1789	Skyscraper	Sam Chifney	Matt Stephenson	5th Duke of Bedford		
+1790	Rhadamanthus	John Arnull	John Pratt	1st Earl Grosvenor		
+1791	Eager	Matt Stephenson	Matt Stephenson	5th Duke of Bedford		
+1792	John Bull	Frank Buckle	John Pratt	1st Earl Grosvenor		
+1793	Waxy	Bill Clift	Robert Robson	Sir Ferdinand Poole		
+1794	Daedalus	Frank Buckle	John Pratt	1st Earl Grosvenor		
+1795	Spread Eagle	Anthony Wheatley	Richard Prince	Sir Frank Standish		
+1796	Didelot	John Arnull	Richard Prince	Sir Frank Standish		
+1797	Colt by Fidget	John Singleton, Jr.	Matt Stephenson	5th Duke of Bedford		
+1798	Sir Harry	Sam Arnull	Frank Neale	Joseph Cookson		
+1799	Archduke	John Arnull	Richard Prince	Sir Frank Standish		
+1800	Champion	Bill Clift	Tom Perren	Christopher Wilson		
+1801	Eleanor	John Saunders	J. Frost	Sir Charles Bunbury		
+1802	Tyrant	Frank Buckle	Robert Robson	3rd Duke of Grafton		
+1803	Ditto	Bill Clift	John Lonsdale	Sir Hedworth Williamson		
+1804	Hannibal	Bill Arnull	Frank Neale	3rd Earl of Egremont		
+1805	Cardinal Beaufort	Dennis Fitzpatrick	Dixon Boyce	3rd Earl of Egremont		
+1806	Paris	John Shepherd	Richard Prince	3rd Baron Foley		
+1807	Election	John Arnull	Dixon Boyce	3rd Earl of Egremont		
+1808	Pan	Frank Collinson	John Lonsdale	Sir Hedworth Williamson		
+1809	Pope	Tom Goodisson	Robert Robson	3rd Duke of Grafton	nk	
+1810	Whalebone	Bill Clift	Robert Robson	3rd Duke of Grafton		
+1811	Phantom	Frank Buckle	James Edwards	Sir John Shelley	hd	
+1812	Octavius	Bill Arnull	Dixon Boyce	Robert Ladbroke	hd	
+1813	Smolensko	Tom Goodisson	Crouch	Sir Charles Bunbury	1	
+1814	Blucher	Bill Arnull	Dixon Boyce	2nd Baron Stawell		
+1815	Whisker	Tom Goodisson	Robert Robson	4th Duke of Grafton	shd	
+1816	Prince Leopold	Will Wheatley	William Butler	Duke of York	½	
+1817	Azor	Jem Robinson	Robert Robson	John Payne		
+1818	Sam	Sam Chifney, Jr.	William Chifney	Thomas Thornhill	¾	
+1819	Tiresias	Bill Clift	Richard Prince	4th Duke of Portland	nk	
+1820	Sailor	Sam Chifney, Jr.	William Chifney	Thomas Thornhill	2	
+1821	Gustavus	Sam Day	Crouch	John Hunter	½	
+1822	Moses	Tom Goodisson	William Butler	Duke of York	hd	
+1823	Emilius	Frank Buckle	Robert Robson	John Udny	1	
+1824	Cedric	Jem Robinson	James Edwards	Sir John Shelley		
+1825	Middleton	Jem Robinson	James Edwards	5th Earl of Jersey		
+1826	Lap-dog	George Dockeray	R. Stephenson	3rd Earl of Egremont		
+1827	Mameluke	Jem Robinson	James Edwards	5th Earl of Jersey		
+1828	Cadland	Jem Robinson	Dixon Boyce	5th Duke of Rutland	dh	
+1829	Frederick	John Forth	John Forth	William Gratwicke	hd	
+1830	Priam	Sam Day	William Chifney	William Chifney	2	
+1831	Spaniel	Will Wheatley	J. Rogers	Viscount Lowther		
+1832	St. Giles	Bill Scott	J. Webb	Robert Ridsdale	2	
+1833	Dangerous	Jem Chapple	Isaac Sadler	Isaac Sadler	1	
+1834	Plenipotentiary	Patrick Conolly	George Payne	Stanlake Batson	2	
+1835	Mündig	Bill Scott	John Scott	John Bowes	nk	
+1836	Bay Middleton	Jem Robinson	James Edwards	5th Earl of Jersey	2	
+1837	Phosphorus	George Edwards	John Doe	Lord Berners	nk	
+1838	Amato	Jem Chapple	Ralph Sherwood	Sir Gilbert Heathcote		
+1839	Bloomsbury	Sim Templeman	William Ridsdale	William Ridsdale	1	
+1840	Little Wonder	William Macdonald	John Forth	David Robertson	1	
+1841	Coronation	Patrick Conolly	Ben Painter	Abraham Rawlinson	3	
+1842	Attila	Bill Scott	John Scott	George Anson	2	
+1843	Cotherstone	Bill Scott	John Scott	John Bowes	2	
+1844	Orlando	Nat Flatman	W. Cooper	Jonathan Peel		
+1845	The Merry Monarch	Foster Bell	John Forth	William Gratwicke	1	
+1846	Pyrrhus The First	Sam Day	John Day	John Gully	nk	2:55
+1847	Cossack	Sim Templeman	John Day	T. H. Pedley	1	2:52
+1848	Surplice	Sim Templeman	John Kent, Jr.	3rd Viscount Clifden	nk	2:48
+1849	The Flying Dutchman	Charles Marlow	John Fobert	13th Earl of Eglinton	snk	3:00
+1850	Voltigeur	Job Marson	Robert Hill	2nd Earl of Zetland	1	2:50
+1851	Teddington	Job Marson	Alec Taylor, Sr.	Sir Joseph Hawley	2	2:51
+1852	Daniel O'Rourke	Frank Butler	John Scott	John Bowes	½	3:02
+1853	West Australian	Frank Butler	John Scott	John Bowes	nk	2:55
+1854	Andover	Alfred Day	John Day	John Gully	1	2:52
+1855	Wild Dayrell	Robert Sherwood	John Rickaby	Francis Popham	1	2:54
+1856	Ellington	Tom Aldcroft	Tom Dawson	Octavius Vernon Harcourt	1	3:04
+1857	Blink Bonny	Jack Charlton	William I'Anson	William I'Anson	nk	2:45
+1858	Beadsman	John Wells	George Manning	Sir Joseph Hawley	1	2:54
+1859	Musjid	John Wells	George Manning	Sir Joseph Hawley	½'	2:59
+1860	Thormanby	Harry Custance	Mathew Dawson	James Merry	1½	2:55
+1861	Kettledrum	Ralph Bullock	G. Oates	Charles Towneley	1	2:45
+1862	Caractacus	John Parsons	Robert Smith	Charles Snewing	nk	2:45
+1863	Macaroni	Tom Chaloner	James Godding	Richard Naylor	hd	2:50
+1864	Blair Athol	Jim Snowden	William I'Anson	William I'Anson	2	2:43
+1865	Gladiateur	Harry Grimshaw	Tom Jennings, Sr.	Frédéric de Lagrange	2	2:46
+1866	Lord Lyon	Harry Custance	James Dover	Richard Sutton	hd	2:50
+1867	Hermit	John Daley	G. Bloss	Henry Chaplin	nk	2:42
+1868	Blue Gown	John Wells	John Porter	Sir Joseph Hawley	½	2:43
+1869	Pretender	John Osborne Jr.	Tom Dawson	John Johnstone	shd	2:52
+1870	Kingcraft	Tom French	Mathew Dawson	6th Viscount Falmouth	4	2:45
+1871	Favonius	Tom French	Joseph Hayhoe	Mayer A. de Rothschild	1½	2:50
+1872	Cremorne	Charlie Maidment	William Gilbert	Henry Savile	hd	2:45
+1873	Doncaster	Fred Webb	Robert Peck	James Merry	1½	2:50
+1874	George Frederick	Harry Custance	Tom Leader	W. S. Cartwright	2	2:46
+1875	Galopin	Jack Morris	John Dawson	Gusztáv Batthyány	1	2:48
+1876	Kisber	Charlie Maidment	Joseph Hayhoe	Alexander Baltazzi	5	2:44
+1877	Silvio	Fred Archer	Mathew Dawson	6th Viscount Falmouth	½	2:50
+1878	Sefton	Harry Constable	Alec Taylor, Sr.	William Stirling Crawfurd	1½	2:56
+1879	Sir Bevys	George Fordham	Joseph Hayhoe	Lionel de Rothschild	¾	3:02
+1880	Bend Or	Fred Archer	Robert Peck	1st Duke of Westminster	hd	2:46
+1881	Iroquois	Fred Archer	Jacob Pincus	Pierre Lorillard IV	nk	2:50
+1882	Shotover	Tom Cannon, Sr.	John Porter	1st Duke of Westminster	¾	2:45
+1883	St. Blaise	Charles Wood	John Porter	Sir Frederick Johnstone	hd	2:48
+1884	Harvester	Sam Loates	James Jewitt	Sir J. Willoughby	dh	2:46
+1884	St. Gatien	Charles Wood	Robert Sherwood	Jack Hammond	dh	2:46
+1885	Melton	Fred Archer	Mathew Dawson	20th Baron Hastings	hd	2:44
+1886	Ormonde	Fred Archer	John Porter	1st Duke of Westminster	1½	2:45.6
+1887	Merry Hampton	John Watts	Martin Gurry	George Alexander Baird	4	2:43
+1888	Ayrshire	Fred Barrett	George Dawson	6th Duke of Portland	2'	2:43
+1889	Donovan	Tommy Loates	George Dawson	6th Duke of Portland	1½	2:44
+1890	Sainfoin	John Watts	John Porter	James Miller	¾	2:49
+1891	Common	George Barrett	John Porter	Sir Frederick Johnstone	2	2:56
+1892	Sir Hugo	Fred Allsopp	Tom Wadlow	3rd Earl of Bradford	¾	2:44
+1893	Isinglass	Tommy Loates	James Jewitt	Harry McCalmont	1½	2:43
+1894	Ladas	John Watts	Mathew Dawson	5th Earl of Rosebery	1½	2:45
+1895	Sir Visto	Sam Loates	Mathew Dawson	5th Earl of Rosebery	¾	2:43
+1896	Persimmon	John Watts	Richard Marsh	Prince of Wales	nk	2:42
+1897	Galtee More	Charles Wood	Sam Darling	John Gubbins	2	2:44
+1898	Jeddah	Otto Madden	Richard Marsh	James Larnach	¾	2:47
+1899	Flying Fox	Morny Cannon	John Porter	1st Duke of Westminster	2	2:42
+1900	Diamond Jubilee	Herbert Jones	Richard Marsh	Prince of Wales	½	2:42
+1901	Volodyovski	Lester Reiff	John Huggins	William C. Whitney	¾	2:40.8
+1902	Ard Patrick	Skeets Martin	Sam Darling	John Gubbins	3	2:42.2
+1903	Rock Sand	Danny Maher	George Blackwell	James Miller	2	2:42.8
+1904	St. Amant	Kempton Cannon	Alfred Hayhoe	Leopold de Rothschild	3	2:45.4
+1905	Cicero	Danny Maher	Percy Peck	5th Earl of Rosebery	¾	2:39.6
+1906	Spearmint	Danny Maher	Peter Gilpin	Major Eustace Loder	1½	2:36.8
+1907	Orby	John Reiff	Fred McCabe	Richard Croker	2	2:44
+1908	Signorinetta	Billy Bullock	Edoardo Ginistrelli	Edoardo Ginistrelli	2	2:39.8
+1909	Minoru	Herbert Jones	Richard Marsh	King Edward VII	shd	2:42.7
+1910	Lemberg	Bernard Dillon	Alec Taylor, Jr.	Alfred Cox	nk	2:35.2
+1911	Sunstar	George Stern	Charles Morton	Jack Barnato Joel	2	2:36.8
+1912	Tagalie	John Reiff	Dawson Waugh	Walter Raphael	4	2:38.8
+1913	Aboyeur	Edwin Piper	Tom Lewis	Alan Cunliffe	nk	2:37.6
+1914	Durbar	Matt McGee	Tom Murphy	Herman Duryea	3	2:38.4
+1915	Pommern	Steve Donoghue	Charles Peck	Solomon Joel	2	2:32.6
+1916	Fifinella	Joe Childs	Dick Dawson	Sir Edward Hulton	nk	2:36.6
+1917	Gay Crusader	Steve Donoghue	Alec Taylor, Jr.	Alfred Cox	4	2:40.6
+1918	Gainsborough	Joe Childs	Alec Taylor, Jr.	Lady James Douglas	1½	2:33.2
+1919	Grand Parade	Fred Templeman	Frank Barling	1st Baron Glanely	½	2:35.8
+1920	Spion Kop	Frank O'Neill	Peter Gilpin	Giles Loder	2	2:34.8
+1921	Humorist	Steve Donoghue	Charles Morton	Jack Barnato Joel	nk	2:36.2
+1922	Captain Cuttle	Steve Donoghue	Fred Darling	1st Baron Woolavington	4	2:34.6
+1923	Papyrus	Steve Donoghue	Basil Jarvis	Ben Irish	1	2:38
+1924	Sansovino	Tommy Weston	George Lambton	17th Earl of Derby	6	2:46
+1925	Manna	Steve Donoghue	Fred Darling	Henry E. Morriss	8	2:40.6
+1926	Coronach	Joe Childs	Fred Darling	1st Baron Woolavington	5	2:47.8
+1927	Call Boy	Charlie Elliott	John E. Watts	Frank Curzon	2	2:34.4
+1928	Felstead	Harry Wragg	Ossie Bell	Sir Hugo Cunliffe-Owen	1½	2:34.8
+1929	Trigo	Joe Marshall	Dick Dawson	William Barnett	1½	2:36.4
+1930	Blenheim	Harry Wragg	Dick Dawson	Aga Khan III	1	2:38.2
+1931	Cameronian	Freddie Fox	Fred Darling	Arthur Dewar	¾	2:36.6
+1932	April the Fifth	Fred Lane	Tom Walls	Tom Walls	¾	2:43.2
+1933	Hyperion	Tommy Weston	George Lambton	17th Earl of Derby	4	2:34
+1934	Windsor Lad	Charles Smirke	Marcus Marsh	Maharaja Sir Vijaysinhji of Rajpipla	1	2:34
+1935	Bahram	Freddie Fox	Frank Butters	Aga Khan III	2	2:36
+1936	Mahmoud	Charles Smirke	Frank Butters	Aga Khan III	3	2:33.8
+1937	Mid-day Sun	Michael Beary	Fred Butters	Lettice Mary Miller	1½	2:37.6
+1938	Bois Roussel	Charlie Elliott	Fred Darling	Peter Beatty	4	2:39.2
+1939	Blue Peter	Eph Smith	Jack Jarvis	6th Earl of Rosebery	4	2:36.8
+1940	Pont l'Eveque	Sam Wragg	Fred Darling	Fred Darling	3	2:30.8
+1941	Owen Tudor	Billy Nevett	Fred Darling	C. Macdonald-Buchanan	1½	2:32
+1942	Watling Street	Harry Wragg	Walter Earl	17th Earl of Derby	nk	2:29.6
+1943	Straight Deal	Tommy Carey	Walter Nightingall	Dorothy Paget	hd	2:30.4
+1944	Ocean Swell	Billy Nevett	Jack Jarvis	6th Earl of Rosebery	nk	2:31
+1945	Dante	Billy Nevett	Matthew Peacock	Sir Eric Ohlson	2	2:26.6
+1946	Airborne	Tommy Lowrey	Dick Perryman	John E. Ferguson	1	2:44.6
+1947	Pearl Diver	Georges Bridgland	Percy Carter	Baron Geoffroy de Waldner	4	2:38.4
+1948	My Love	Rae Johnstone	Richard Carver	Aga Khan III / Volterra	1½	2:40
+1949	Nimbus	Charlie Elliott	George Colling	Marion Glenister	hd	2:42
+1950	Galcador	Rae Johnstone	Charles Semblat	Marcel Boussac	hd	2:36.8
+1951	Arctic Prince	Chuck Spares	Willie Stephenson	Joseph McGrath	6	2:39.4
+1952	Tulyar	Charles Smirke	Marcus Marsh	Aga Khan III	¾	2:36.4
+1953	Pinza	Sir Gordon Richards	Norman Bertie	Sir Victor Sassoon	4	2:35.6
+1954	Never Say Die	Lester Piggott	Joseph Lawson	Robert Sterling Clark	2	2:35.8
+1955	Phil Drake	Freddie Palmer	François Mathet	Suzy Volterra	2	2:39.8
+1956	Lavandin	Rae Johnstone	Alec Head	Pierre Wertheimer	nk	2:36.4
+1957	Crepello	Lester Piggott	Noel Murless	Sir Victor Sassoon	1½	2:35.4
+1958	Hard Ridden	Charles Smirke	Mick Rogers	Sir Victor Sassoon	5	2:41.2
+1959	Parthia	Harry Carr	Cecil Boyd-Rochfort	Sir Humphrey de Trafford	1½	2:36.0
+1960	St. Paddy	Lester Piggott	Noel Murless	Sir Victor Sassoon	3	2:35.8
+1961	Psidium	Roger Poincelet	Harry Wragg	Etti Plesch	2	2:36.4
+1962	Larkspur	Neville Sellwood	Vincent O'Brien	Raymond R. Guest	2	2:37.6
+1963	Relko	Yves Saint-Martin	François Mathet	François Dupré	6	2:39.4
+1964	Santa Claus	Scobie Breasley	Mick Rogers	John Ismay	1	2:41.98
+1965	Sea Bird	Pat Glennon	Etienne Pollet	Jean Ternynck	2	2:38.41
+1966	Charlottown	Scobie Breasley	Gordon Smyth	Lady Zia Wernher	nk	2:37.63
+1967	Royal Palace	George Moore	Noel Murless	Jim Joel	2½	2:38.36
+1968	Sir Ivor	Lester Piggott	Vincent O'Brien	Raymond R. Guest	1½	2:38.73
+1969	Blakeney	Ernie Johnson	Arthur Budgett	Arthur Budgett	1	2:40.30
+1970	Nijinsky	Lester Piggott	Vincent O'Brien	Charles W. Engelhard, Jr.	2½	2:34.68
+1971	Mill Reef	Geoff Lewis	Ian Balding	Paul Mellon	2	2:37.14
+1972	Roberto	Lester Piggott	Vincent O'Brien	John W. Galbreath	shd	2:36.09
+1973	Morston	Edward Hide	Arthur Budgett	Arthur Budgett	½	2:35.92
+1974	Snow Knight	Brian Taylor	Peter Nelson	Sharon Phillips	2	2:35.04
+1975	Grundy	Pat Eddery	Peter Walwyn	Carlo Vittadini	3	2:35.35
+1976	Empery	Lester Piggott	Maurice Zilber	Nelson Bunker Hunt	3	2:35.69
+1977	The Minstrel	Lester Piggott	Vincent O'Brien	Robert Sangster	nk	2:36.44
+1978	Shirley Heights	Greville Starkey	John Dunlop	2nd Earl of Halifax	hd	2:35.30
+1979	Troy	Willie Carson	Dick Hern	Sobell / Weinstock	7	2:36.59
+1980	Henbit	Willie Carson	Dick Hern	Etti Plesch	½	2:34.77
+1981	Shergar	Walter Swinburn	Michael Stoute	Aga Khan IV	10	2:44.21
+1982	Golden Fleece	Pat Eddery	Vincent O'Brien	Robert Sangster	3	2:34.27
+1983	Teenoso	Lester Piggott	Geoff Wragg	Eric Moller	3	2:49.07
+1984	Secreto	Christy Roche	David O'Brien	Luigi Miglietti	shd	2:39.12
+1985	Slip Anchor	Steve Cauthen	Henry Cecil	Lord Howard de Walden	7	2:36.23
+1986	Shahrastani	Walter Swinburn	Michael Stoute	Aga Khan IV	½	2:37.13
+1987	Reference Point	Steve Cauthen	Henry Cecil	Louis Freedman	1½	2:33.90
+1988	Kahyasi	Ray Cochrane	Luca Cumani	Aga Khan IV	1½	2:33.84
+1989	Nashwan	Willie Carson	Dick Hern	Hamdan Al Maktoum	5	2:34.90
+1990	Quest for Fame	Pat Eddery	Roger Charlton	Khalid Abdullah	3	2:37.26
+1991	Generous	Alan Munro	Paul Cole	Prince Fahd bin Salman	5	2:34.00
+1992	Dr Devious	John Reid	Peter Chapple-Hyam	Sidney H. Craig	2	2:36.19
+1993	Commander in Chief	Michael Kinane	Henry Cecil	Khalid Abdullah	3½	2:34.51
+1994	Erhaab	Willie Carson	John Dunlop	Hamdan Al Maktoum	1¼	2:34.16
+1995	Lammtarra	Walter Swinburn	Saeed bin Suroor	Saeed bin M. Al Maktoum	1	2:32.31
+1996	Shaamit	Michael Hills	William Haggas	Khalifa Dasmal	1¼	2:35.05
+1997	Benny the Dip	Willie Ryan	John Gosden	Landon Knight	shd	2:35.77
+1998	High-Rise	Olivier Peslier	Luca Cumani	M. Obaid Al Maktoum	hd	2:33.88
+1999	Oath	Kieren Fallon	Henry Cecil	The Thoroughbred Corp.	1¾	2:37.43
+2000	Sinndar	Johnny Murtagh	John Oxx	Aga Khan IV	1	2:36.75
+2001	Galileo	Michael Kinane	Aidan O'Brien	Magnier / Tabor	3½	2:33.27
+2002	High Chaparral	Johnny Murtagh	Aidan O'Brien	Magnier / Tabor	2	2:39.45
+2003	Kris Kin	Kieren Fallon	Sir Michael Stoute	Saeed Suhail	1	2:33.35
+2004	North Light	Kieren Fallon	Sir Michael Stoute	Ballymacoll Stud	1½	2:33.72
+2005	Motivator	Johnny Murtagh	Michael Bell	Royal Ascot Racing Club	5	2:35.69
+2006	Sir Percy	Martin Dwyer	Marcus Tregoning	Anthony Pakenham	shd	2:35.23
+2007	Authorized	Frankie Dettori	Peter Chapple-Hyam	Al Homaizi / Al Sagar	5	2:34.77
+2008	New Approach	Kevin Manning	Jim Bolger	Princess Haya of Jordan	½	2:36.50
+2009	Sea the Stars	Michael Kinane	John Oxx	Christopher Tsui	1¾	2:36.74
+2010	Workforce	Ryan Moore	Sir Michael Stoute	Khalid Abdullah	7	2:31.33
+2011	Pour Moi	Mickael Barzalona	André Fabre	Magnier / Tabor / Smith	hd	2:34.54
+2012	Camelot	Joseph O'Brien	Aidan O'Brien	Smith / Magnier / Tabor /	5	2:33.90
+2013	Ruler of the World	Ryan Moore	Aidan O'Brien	Magnier / Tabor / Smith	1½	2:39.06
+2014	Australia	Joseph O'Brien	Aidan O'Brien	Smith, Magnier, Tabor, Khing	1¼	2:33.63
+2015	Golden Horn	Frankie Dettori	John Gosden	Anthony Oppenheimer	3½	2:32.32
+2016	Harzand	Pat Smullen	Dermot Weld	Aga Khan IV	1½	2:40.09
+2017	Wings of Eagles	Padraig Beggy	Aidan O'Brien	Smith / Magnier / Tabor	¾	2:33.02
+2018	Masar	William Buick	Charlie Appleby	Godolphin	1½	2:34.93
+2019	Anthony Van Dyck	Seamie Heffernan	Aidan O'Brien	Smith / Magnier / Tabor	½	2:33.38
