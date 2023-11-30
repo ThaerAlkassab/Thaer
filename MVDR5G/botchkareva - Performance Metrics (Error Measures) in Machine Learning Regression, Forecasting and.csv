@@ -1,0 +1,11 @@
+No.,Title,insights,References,Citations,Authors,Open Access,Publication Type,PDF link,DOI,Date,Journal name,Institutions
+1,Pareto Optimal Binaural MVDR Beamformer with Controllable Interference Suppression,,,,undefined,FALSE,Proceedings Article,,10.1109/iwaenc53105.2022.9914759,05/09/2022,,undefined
+2,Pareto Optimal Binaural MVDR Beamformer with Controllable Interference Suppression,,,,"Elior Hadad, Simon Doclo, Sven Nordholm, Sharon Gannot",FALSE,Proceedings Article,,10.1109/IWAENC53105.2022.9914759,05/09/2022,,
+3,Optimum Hybrid MVDR Beamformer With Sparse Signal Recovery Approach,,,,"Batu K. Chalise, Moeness G. Amin, Anthony F. Martone, Benjamin H. Kirk, Kelly D. Sherbondy",FALSE,Proceedings Article,,10.1109/RadarConf2248738.2022.9764295,21/03/2022,,
+4,Optimum Hybrid MVDR Beamformer With Sparse Signal Recovery Approach,,,,undefined,FALSE,Proceedings Article,,10.1109/radarconf2248738.2022.9764295,21/03/2022,,undefined
+5,Random Matrix-Optimized High-Dimensional MVDR Beamforming,,,,"Liusha Yang, Matthew R. McKay, Romain Couillet",FALSE,Proceedings Article,,10.1109/SSP.2018.8450743,01/06/2018,,"Hong Kong University of Science and Technology, Université Paris-Saclay"
+6,An iterative algorithm for the computation of the MVDR filter,,,,"Dimitris A. Pados, George N. Karystinos",FALSE,Journal Article,,10.1109/78.902111,01/02/2001,IEEE Transactions on Signal Processing,State University of New York System
+7,Teaching notes of MVDR in digital signal processing (DSP),,,,"Xiansheng Guo, Qun Wan, Ying Zhang, Jin Liang",FALSE,Proceedings Article,,10.1109/TALE.2012.6360341,26/11/2012,,
+8,MVDR Algorithm Based on Estimated Diagonal Loading for Beamforming,,,,"Yuteng Xiao, Jihang Yin, Honggang Qi, Hongsheng Yin, Gang Hua",TRUE,Journal Article,https://downloads.hindawi.com/journals/mpe/2017/7904356.pdf,10.1155/2017/7904356,12/10/2017,Mathematical Problems in Engineering,
+9,A generalized MVDR spectrum,,,,"Jacob Benesty, Jingdong Chen, Yiteng Huang",FALSE,Journal Article,,10.1109/LSP.2005.859517,21/11/2005,IEEE Signal Processing Letters,Alcatel-Lucent
+10,MVDR Method for the Whole Conformal Arrays,,,,"Lin Zou, Zishu He",FALSE,Book Chapter,,10.1007/978-3-642-31656-2_126,01/01/2013,,University of Electronic Science and Technology of China
