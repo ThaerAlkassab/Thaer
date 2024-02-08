@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Single+Day&display=swap');
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 20%;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-family: 'Single Day', cursive;
+    font-size: 30px;
+    background-color: #6bd4c3;
+}
+h2 {
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
