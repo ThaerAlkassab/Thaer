@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Week Calendar</title>
+</head>
+<body>
+    <h2>Week Calendar</h2>
+
+    <label for="day-select">Select Day:</label>
+    <select id="day-select">
+        <option value="0">Monday</option>
+        <option value="1">Tuesday</option>
+        <option value="2">Wednesday</option>
+        <option value="3">Thursday</option>
+        <option value="4">Friday</option>
+        <option value="5">Saturday</option>
+        <option value="6">Sunday</option>
+    </select>
+<br>
+<label for="appointment-hour">Enter Appointment Start Time (24-hour format):</label>
+<select id="appointment-hour">
+    <option value="00">00</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+    <option value="08">08</option>
+    <option value="09">09</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+</select>
+<select id="appointment-minute">
+    <option value="00">00</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+    <option value="08">08</option>
+    <option value="09">09</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>
+    <option value="32">32</option>
+    <option value="33">33</option>
+    <option value="34">34</option>
+    <option value="35">35</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+    <option value="38">38</option>
+    <option value="39">39</option>
+    <option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+    <option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+    <option value="47">47</option>
+    <option value="48">48</option>
+    <option value="49">49</option>
+    <option value="50">50</option>
+    <option value="51">51</option>
+    <option value="52">52</option>
+    <option value="53">53</option>
+    <option value="54">54</option>
+    <option value="55">55</option>
+    <option value="56">56</option>
+    <option value="57">57</option>
+    <option value="58">58</option>
+    <option value="59">59</option>
+</select>
+
+
+    
+    <label for="appointment-length">Enter Appointment Length (in hours):</label>
+    <input type="number" id="appointment-length" min="1">
+    
+    <label for="appointment-text">Enter Appointment Description:</label>
+    <input type="text" id="appointment-text">
+    
+    <button onclick="addAppointment()">Add</button>
+
+    <table id="calendar">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Generating time slots from 00:00 to 23:00 -->
+            <tr>
+                <td>00:00</td>
+                <td colspan="1" id="row-0-0"></td>
+                <td colspan="1" id="row-0-1"></td>
+                <td colspan="1" id="row-0-2"></td>
+                <td colspan="1" id="row-0-3"></td>
+                <td colspan="1" id="row-0-4"></td>
+                <td colspan="1" id="row-0-5"></td>
+                <td colspan="1" id="row-0-6"></td>
+            </tr>
+            <tr>
+                <td>01:00</td>
+                <td colspan="1" id="row-1-0"></td>
+                <td colspan="1" id="row-1-1"></td>
+                <td colspan="1" id="row-1-2"></td>
+                <td colspan="1" id="row-1-3"></td>
+                <td colspan="1" id="row-1-4"></td>
+                <td colspan="1" id="row-1-5"></td>
+                <td colspan="1" id="row-1-6"></td>
+            </tr>
+            <tr>
+                <td>02:00</td>
+                <td colspan="1" id="row-2-0"></td>
+                <td colspan="1" id="row-2-1"></td>
+                <td colspan="1" id="row-2-2"></td>
+                <td colspan="1" id="row-2-3"></td>
+                <td colspan="1" id="row-2-4"></td>
+                <td colspan="1" id="row-2-5"></td>
+                <td colspan="1" id="row-2-6"></td>
+            </tr>
+            <tr>
+                <td>03:00</td>
+                <td colspan="1" id="row-3-0"></td>
+                <td colspan="1" id="row-3-1"></td>
+                <td colspan="1" id="row-3-2"></td>
+                <td colspan="1" id="row-3-3"></td>
+                <td colspan="1" id="row-3-4"></td>
+                <td colspan="1" id="row-3-5"></td>
+                <td colspan="1" id="row-3-6"></td>
+            </tr>
+            <tr>
+                <td>04:00</td>
+                <td colspan="1" id="row-4-0"></td>
+                <td colspan="1" id="row-4-1"></td>
+                <td colspan="1" id="row-4-2"></td>
+                <td colspan="1" id="row-4-3"></td>
+                <td colspan="1" id="row-4-4"></td>
+                <td colspan="1" id="row-4-5"></td>
+                <td colspan="1" id="row-4-6"></td>
+            </tr>
+            <tr>
+                <td>05:00</td>
+                <td colspan="1" id="row-5-0"></td>
+                <td colspan="1" id="row-5-1"></td>
+                <td colspan="1" id="row-5-2"></td>
+                <td colspan="1" id="row-5-3"></td>
+                <td colspan="1" id="row-5-4"></td>
+                <td colspan="1" id="row-5-5"></td>
+                <td colspan="1" id="row-5-6"></td>
+            </tr>
+            <tr>
+                <td>06:00</td>
+                <td colspan="1" id="row-6-0"></td>
+                <td colspan="1" id="row-6-1"></td>
+                <td colspan="1" id="row-6-2"></td>
+                <td colspan="1" id="row-6-3"></td>
+                <td colspan="1" id="row-6-4"></td>
+                <td colspan="1" id="row-6-5"></td>
+                <td colspan="1" id="row-6-6"></td>
+            </tr>
+            <tr>
+                <td>07:00</td>
+                <td colspan="1" id="row-7-0"></td>
+                <td colspan="1" id="row-7-1"></td>
+                <td colspan="1" id="row-7-2"></td>
+                <td colspan="1" id="row-7-3"></td>
+                <td colspan="1" id="row-7-4"></td>
+                <td colspan="1" id="row-7-5"></td>
+                <td colspan="1" id="row-7-6"></td>
+            </tr>
+            <tr>
+                <td>08:00</td>
+                <td colspan="1" id="row-8-0"></td>
+                <td colspan="1" id="row-8-1"></td>
+                <td colspan="1" id="row-8-2"></td>
+                <td colspan="1" id="row-8-3"></td>
+                <td colspan="1" id="row-8-4"></td>
+                <td colspan="1" id="row-8-5"></td>
+                <td colspan="1" id="row-8-6"></td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td colspan="1" id="row-9-0"></td>
+                <td colspan="1" id="row-9-1"></td>
+                <td colspan="1" id="row-9-2"></td>
+                <td colspan="1" id="row-9-3"></td>
+                <td colspan="1" id="row-9-4"></td>
+                <td colspan="1" id="row-9-5"></td>
+                <td colspan="1" id="row-9-6"></td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td colspan="1" id="row-10-0"></td>
+                <td colspan="1" id="row-10-1"></td>
+                <td colspan="1" id="row-10-2"></td>
+                <td colspan="1" id="row-10-3"></td>
+                <td colspan="1" id="row-10-4"></td>
+                <td colspan="1" id="row-10-5"></td>
+                <td colspan="1" id="row-10-6"></td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td colspan="1" id="row-11-0"></td>
+                <td colspan="1" id="row-11-1"></td>
+                <td colspan="1" id="row-11-2"></td>
+                <td colspan="1" id="row-11-3"></td>
+                <td colspan="1" id="row-11-4"></td>
+                <td colspan="1" id="row-11-5"></td>
+                <td colspan="1" id="row-11-6"></td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td colspan="1" id="row-12-0"></td>
+                <td colspan="1" id="row-12-1"></td>
+                <td colspan="1" id="row-12-2"></td>
+                <td colspan="1" id="row-12-3"></td>
+                <td colspan="1" id="row-12-4"></td>
+                <td colspan="1" id="row-12-5"></td>
+                <td colspan="1" id="row-12-6"></td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td colspan="1" id="row-13-0"></td>
+                <td colspan="1" id="row-13-1"></td>
+                <td colspan="1" id="row-13-2"></td>
+                <td colspan="1" id="row-13-3"></td>
+                <td colspan="1" id="row-13-4"></td>
+                <td colspan="1" id="row-13-5"></td>
+                <td colspan="1" id="row-13-6"></td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td colspan="1" id="row-14-0"></td>
+                <td colspan="1" id="row-14-1"></td>
+                <td colspan="1" id="row-14-2"></td>
+                <td colspan="1" id="row-14-3"></td>
+                <td colspan="1" id="row-14-4"></td>
+                <td colspan="1" id="row-14-5"></td>
+                <td colspan="1" id="row-14-6"></td>
+            </tr>
+            <tr>
+                <td>15:00</td>
+                <td colspan="1" id="row-15-0"></td>
+                <td colspan="1" id="row-15-1"></td>
+                <td colspan="1" id="row-15-2"></td>
+                <td colspan="1" id="row-15-3"></td>
+                <td colspan="1" id="row-15-4"></td>
+                <td colspan="1" id="row-15-5"></td>
+                <td colspan="1" id="row-15-6"></td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td colspan="1" id="row-16-0"></td>
+                <td colspan="1" id="row-16-1"></td>
+                <td colspan="1" id="row-16-2"></td>
+                <td colspan="1" id="row-16-3"></td>
+                <td colspan="1" id="row-16-4"></td>
+                <td colspan="1" id="row-16-5"></td>
+                <td colspan="1" id="row-16-6"></td>
+            </tr>
+            <tr>
+                <td>17:00</td>
+                <td colspan="1" id="row-17-0"></td>
+                <td colspan="1" id="row-17-1"></td>
+                <td colspan="1" id="row-17-2"></td>
+                <td colspan="1" id="row-17-3"></td>
+                <td colspan="1" id="row-17-4"></td>
+                <td colspan="1" id="row-17-5"></td>
+                <td colspan="1" id="row-17-6"></td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td colspan="1" id="row-18-0"></td>
+                <td colspan="1" id="row-18-1"></td>
+                <td colspan="1" id="row-18-2"></td>
+                <td colspan="1" id="row-18-3"></td>
+                <td colspan="1" id="row-18-4"></td>
+                <td colspan="1" id="row-18-5"></td>
+                <td colspan="1" id="row-18-6"></td>
+            </tr>
+            <tr>
+                <td>19:00</td>
+                <td colspan="1" id="row-19-0"></td>
+                <td colspan="1" id="row-19-1"></td>
+                <td colspan="1" id="row-19-2"></td>
+                <td colspan="1" id="row-19-3"></td>
+                <td colspan="1" id="row-19-4"></td>
+                <td colspan="1" id="row-19-5"></td>
+                <td colspan="1" id="row-19-6"></td>
+            </tr>
+            <tr>
+                <td>20:00</td>
+                <td colspan="1" id="row-20-0"></td>
+                <td colspan="1" id="row-20-1"></td>
+                <td colspan="1" id="row-20-2"></td>
+                <td colspan="1" id="row-20-3"></td>
+                <td colspan="1" id="row-20-4"></td>
+                <td colspan="1" id="row-20-5"></td>
+                <td colspan="1" id="row-20-6"></td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td colspan="1" id="row-21-0"></td>
+                <td colspan="1" id="row-21-1"></td>
+                <td colspan="1" id="row-21-2"></td>
+                <td colspan="1" id="row-21-3"></td>
+                <td colspan="1" id="row-21-4"></td>
+                <td colspan="1" id="row-21-5"></td>
+                <td colspan="1" id="row-21-6"></td>
+            </tr>
+            <tr>
+                <td>22:00</td>
+                <td colspan="1" id="row-22-0"></td>
+                <td colspan="1" id="row-22-1"></td>
+                <td colspan="1" id="row-22-2"></td>
+                <td colspan="1" id="row-22-3"></td>
+                <td colspan="1" id="row-22-4"></td>
+                <td colspan="1" id="row-22-5"></td>
+                <td colspan="1" id="row-22-6"></td>
+            </tr>
+            <tr>
+                <td>23:00</td>
+                <td colspan="1" id="row-23-0"></td>
+                <td colspan="1" id="row-23-1"></td>
+                <td colspan="1" id="row-23-2"></td>
+                <td colspan="1" id="row-23-3"></td>
+                <td colspan="1" id="row-23-4"></td>
+                <td colspan="1" id="row-23-5"></td>
+                <td colspan="1" id="row-23-6"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
