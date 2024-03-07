@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+}
+
+#mouseOverDiv {
+    padding: 20px;
+    margin: 10px;
+    background-color: lightblue;
+    cursor: pointer;
+}
