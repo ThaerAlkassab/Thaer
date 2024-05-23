@@ -1,0 +1,256 @@
+.listContainer {
+  width: 100%;
+  max-width: 1100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem;
+  margin: -4rem 10rem;
+}
+@media screen and (min-width: 720px) {
+  .listContainer {
+    flex-direction: column;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+  }
+}
+.listContainer .cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  padding: 2rem 1rem;
+}
+@media screen and (min-width: 720px) {
+  .listContainer .cardContainer {
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 1rem;
+  }
+}
+.listContainer .cardContainer .nwsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+@media screen and (min-width: 720px) {
+  .listContainer .cardContainer .nwsContainer {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: inherit;
+    margin-left: 2rem;
+    margin-right: 4rem;
+  }
+}
+
+.listContainer .cardContainer .nwsContainer .txtContainer h2 {
+  margin-bottom: 1.5rem;
+}
+
+.listContainer .cardContainer .pyContainer .txt2Container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.listContainer .cardContainer .nwsContainer .txt2Container {
+  margin-top: 3rem;
+}
+
+.listContainer .cardContainer .nwsContainer .txtContainer input,
+.txt2Container input {
+  margin-bottom: 0.8rem;
+  height: 42px;
+  width: 390px;
+  background-color: #ffffff;
+  border: 1px solid #c6d1db;
+}
+
+.listContainer .cardContainer .nwsContainer .txt2Container .comSec {
+  margin-bottom: 0.8rem;
+  height: 86px;
+  width: 390px;
+  background-color: #ffffff;
+  border: 1px solid #c6d1db;
+}
+
+.listContainer .cardContainer .nwsContainer .txtContainer ul li,
+.txt2Container ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.listContainer .cardContainer .pyContainer .txt2Container ul .btn {
+  display: flex;
+  flex-direction: column;
+  margin-left: -1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 6rem;
+}
+
+.listContainer .cardContainer .nwsContainer .txtContainer ul li a,
+.txt2Container ul li a {
+  text-align: left;
+  vertical-align: top;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+@media screen and (min-width: 720px) {
+  .listContainer .cardContainer .nwsContainer .txtContainer ul li a,
+  .txt2Container ul li a {
+    align-items: flex-start;
+    margin: inherit;
+  }
+}
+
+.listContainer .cardContainer .nwsContainer .txtContainer p,
+.txt2Container p {
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 18px;
+  font-family: "Maven", sans-serif;
+  line-height: auto;
+  color: #fd0404;
+}
+@media screen and (min-width: 720px) {
+  .listContainer .cardContainer .nwsContainer .txtContainer p,
+  .txt2Container p {
+    align-items: flex-start;
+    margin: inherit;
+  }
+}
+
+.listContainer .cardContainer .pyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin: 1rem 0;
+}
+@media screen and (min-width: 720px) {
+  .listContainer .cardContainer .pyContainer {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: inherit;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    margin-top: 6rem;
+  }
+}
+
+.listContainer .cardContainer .pyContainer button {
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 1rem;
+  height: 42px;
+  width: 390px;
+
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #073762;
+}
+
+.listContainer .cardContainer .pyContainer .txt2Container .inIcon {
+  background-image: url(/src/assets/mastercrd.png);
+  background-position: 21rem center;
+  background-repeat: no-repeat;
+  padding: 10px 0px 10px 0px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 2s;
+  transition: all 0.2s;
+}
+.listContainer .cardContainer .pyContainer .txt2Container .country,
+.nwsContainer .txt2Container .country {
+  background-position: 21rem center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  padding: 12px 68px 12px 0px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 2s;
+  transition: all 0.2s;
+}
+.listContainer .cardContainer .pyContainer .txt2Container .chevIcon,
+.nwsContainer .txt2Container .chevIcon {
+  background-image: url(/src/assets/chev_icon.png);
+  background-position: 21rem center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  padding: 10px 0px 10px 0px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 2s;
+  transition: all 0.2s;
+}
+
+.listContainer .cardContainer .pyContainer .txt2Container .cardInfoContainer {
+  gap: 1rem;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 0.5rem;
+  margin-left: -0.35rem;
+}
+
+.listContainer
+  .cardContainer
+  .pyContainer
+  .txt2Container
+  .cardInfoContainer
+  input {
+  display: flex;
+  flex-direction: row;
+  height: 42px;
+  width: 190px;
+  gap: 2rem;
+}
+@media screen and (min-width: 720px) {
+  .listContainer
+    .cardContainer
+    .pyContainer
+    .txt2Container
+    .cardInfoContainer
+    input {
+    align-items: flex-start;
+    margin: inherit;
+  }
+}
+
+.listContainer .cardContainer .nwsContainer .txt2Container ::-moz-placeholder,
+.pyContainer ::-moz-placeholder {
+  color: #615f5f;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+}
+.listContainer
+  .cardContainer
+  .nwsContainer
+  .txt2Container
+  :-ms-input-placeholder,
+.pyContainer :-ms-input-placeholder {
+  color: #615f5f;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+}
+.listContainer .cardContainer .nwsContainer .txt2Container ::placeholder,
+.pyContainer ::placeholder {
+  color: #615f5f;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+/*# sourceMappingURL=infoCard.module.css.map */

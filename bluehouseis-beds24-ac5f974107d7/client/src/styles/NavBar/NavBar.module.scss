@@ -1,0 +1,44 @@
+.mainNavbarContainer {
+  // border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .logoNavbar {
+    margin: 0;
+  }
+
+  .navbarLinkContainer {
+    border: 1px solid rgb(197, 197, 197);
+    border-top-style: double;
+    border-top-width: 4.5px;
+    border-bottom-style: double;
+    border-bottom-width: 4.5px;
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      width: 100%;
+      max-width: 1050px;
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+      a {
+        // border: 1px solid red;
+        display: inline-block;
+        padding: 1.5rem 1rem;
+        height: 100%;
+        color: #14202b;
+        text-decoration: none;
+        transition: all 0.1s ease-in;
+        &:hover {
+          background-color: #073762;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.mainNavbarContainer .navbarLinkContainer {
+  border: none;
+  background-color: #073762;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  margin: 0;
+}
+
+.mainNavbarContainer .navbarLinkContainer .navbarArrow {
+  font-size: 22px;
+  margin-top: 1.5rem;
+}
+
+.mainNavbarContainer .navbarLinkContainer div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainNavbarContainer .navbarLinkContainer div {
+  display: inline-block;
+  height: 100%;
+  color: #fff;
+  margin-left: 65rem;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+  font-size: 16px;
+  font-family: "Josefin", sans-serif;
+  margin-bottom: 1.8rem;
+}
+
+.mainNavbarContainer .navbarLinkContainer div a:hover {
+  background-color: #073762;
+  color: #fff;
+}
+.mainNavbarContainer .navbarLinkContainer div select {
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  color: #14202b;
+}
+.mainNavbarContainer .navbarLinkContainer div select option {
+  background-color: #fff;
+}
+.mainNavbarContainer .navbarLinkContainer div select option:hover {
+  border: none;
+  color: #e5e5e5;
+} /*# sourceMappingURL=NavBar.module.css.map */

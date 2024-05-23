@@ -1,0 +1,181 @@
+.listContainer {
+	width: 100%;
+	max-width: 1100px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2.4rem;
+	margin: 1rem 0;
+	@media screen and (min-width: 720px) {
+		flex-direction: row;
+		justify-content: center;
+		max-height: 300px;
+	}
+
+	.listName {
+		font-size: 17px;
+		font-weight: 700;
+		margin-bottom: 3rem;
+		height: 120%;
+		@media screen and (min-width: 720px) {
+			writing-mode: vertical-lr;
+			margin-top: 3rem;
+			margin-right: 1rem;
+		}
+	}
+
+	.cardContainer {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 2rem 1rem;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+		@media screen and (min-width: 720px) {
+			flex-direction: row;
+			justify-content: start;
+			padding: 0 1rem;
+		}
+
+		.imgHotelContainer {
+			// width: 100%;
+			// max-width: 300px;
+			img {
+				width: 100%;
+				max-width: 350px;
+			}
+		}
+
+		.descContainer {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 1rem 0;
+			// border: 1px solid red;
+
+			@media screen and (min-width: 720px) {
+				align-items: flex-start;
+				justify-content: space-between;
+				margin: inherit;
+				margin-left: 2rem;
+				margin-right: 4rem;
+				// width: 50%;
+			}
+
+			.descTextContainer {
+				margin-bottom: 3rem;
+				ul li {
+					font-weight: 300;
+					margin: 1rem;
+				}
+
+				@media screen and (min-width: 720px) {
+					margin-bottom: 1rem;
+				}
+			}
+			.descIconContainer {
+				margin-bottom: 3rem;
+				display: flex;
+				align-items: center;
+				img {
+					margin: 0 0.5rem 0rem 0.5rem;
+				}
+				// border: 1px solid red;
+				@media screen and (min-width: 720px) {
+					// margin: inherit;
+					margin-bottom: 0.5rem;
+				}
+			}
+		}
+	}
+
+	.bookingContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+		.prizesContainer {
+			h1 {
+				font-size: 40px;
+				font-weight: 500;
+				margin-bottom: 0.2rem;
+			}
+			p {
+				font-weight: 300;
+				margin-bottom: 1rem;
+			}
+			h2 {
+				font-size: 20px;
+				font-weight: 300;
+			}
+			margin-bottom: 2rem;
+		}
+
+		.qtyContainer {
+			min-width: 250px;
+			display: flex;
+			justify-content: center;
+			input {
+				width: 100%;
+				text-align: center;
+				margin: 0 .5rem;
+				height: 40px;
+				width: 100px;
+				border: 1.5px solid #073865;
+			}
+			::placeholder {
+				color: #073865;
+				font-family: 'Josefin Sans', sans-serif;
+				font-weight: 300;
+				font-size: 15px;
+				text-align: center;
+				width: 100%;
+			}
+			margin-bottom: 2rem;
+		}
+
+		.bookButton {
+			input {
+				width: 100%;
+				height: 40px;
+				width: 100px;
+				background-color: #073865;
+				color: white;
+				border: white;
+				cursor: pointer;
+			}
+		}
+
+		.bookUnavailButton {
+			min-width: 250px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			input {
+				width: 100%;
+				cursor: pointer;
+				padding: 0.5rem 0.7rem;
+				border-radius: 0.5rem;
+				border: white;
+				&:nth-child(1) {
+					margin-bottom: 1rem;
+					color: red;
+					background-color: rgb(255, 205, 205);
+				}
+				&:nth-child(2) {
+					margin-bottom: 0.5rem;
+					color: green;
+					background-color: rgb(205, 255, 208);
+				}
+			}
+		}
+	}
+}
