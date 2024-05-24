@@ -1,0 +1,28 @@
+.support_card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  cursor: pointer;
+}
+.support__icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+.support__title {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(107, 107, 107);
+  font-family: "Josephin 18";
+}
+.support_card:hover {
+  width: 210px;
+  height: 310px;
+  border-left: 1px solid rgb(167, 166, 166);
+  border-right: 1px solid rgb(167, 166, 166);
+  border-bottom: 2px solid rgb(167, 166, 166);
+  box-shadow: 0 2px 0 0 rgb(107, 107, 107);
+}

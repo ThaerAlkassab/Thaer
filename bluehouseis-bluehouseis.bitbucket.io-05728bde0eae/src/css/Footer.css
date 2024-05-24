@@ -1,0 +1,133 @@
+.footer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer__ContantUs {
+  display: flex;
+  flex: 0.3;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  flex-basis: 50vh;
+  margin-top: 20px;
+}
+.footer_contact {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  flex: 0.2;
+  width: 100%;
+}
+.footer_contact > p {
+  padding-left: 30px;
+  font-size: 24px;
+  color: #777777;
+  font-family: "Josephin 24";
+}
+.footer__ContantUs_container {
+  display: flex;
+  height: 100%;
+  width: 70%;
+  flex: 0.4;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer_contact_icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+.footer__NewsLetter {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  height: 40vh;
+  align-items: center;
+  width: 100%;
+  flex-basis: 50vh;
+  margin-top: 20px;
+}
+.footer_contact2 {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  flex: 0.2;
+  width: 100%;
+}
+.footer_contact2 > p {
+  font-size: 24px;
+  color: #777777;
+  font-family: "Josephin 24";
+}
+.footer__AboutUs {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  height: 40vh;
+  width: 100%;
+  flex-basis: 50vh;
+  margin-top: 20px;
+  align-items: center;
+}
+.footer__newsletterForm > form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.footer__newsletterForm > form > button {
+  background-color: darkblue;
+  color: white;
+  height: 50px;
+}
+.footer__newsletterContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: flex-start;
+  height: 30%;
+  justify-content: space-evenly;
+}
+.footer__newsletterForm {
+  display: flex;
+  align-items: flex-start;
+  height: 70%;
+  justify-content: center;
+  width: 80%;
+}
+.aboutUs__footer {
+  display: flex;
+  height: 90%;
+  width: 100%;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.aboutUs__footer > ul > li {
+  font-size: 24px;
+  color: #777777;
+  cursor: pointer;
+  font-family: "Josephin 24";
+  list-style-type: none;
+  margin-top: 30px;
+}
+.footer_contact3 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.footer__AboutUs_container {
+  width: 30%;
+  height: 100%;
+}

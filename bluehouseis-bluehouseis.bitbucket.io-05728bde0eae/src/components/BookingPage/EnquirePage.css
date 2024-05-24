@@ -1,0 +1,40 @@
+.Enquire_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 30px;
+}
+.enquire_rows{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 100%;
+    margin: 10px;
+}
+.enquire_inputs{
+    width: 380px;
+}
+@media screen and (max-width: 600px) {
+    .enquire_inputs{
+        width: 100px;
+    }
+ 
+
+}
+.send_button{
+    margin-top: 20px;
+    background: #CD0407;
+    width: 65px;
+    height: 45px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;  
+    cursor: pointer;
+}
+.enquire_labels{
+    color: #073762
+}

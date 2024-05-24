@@ -1,0 +1,24 @@
+.announcements {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 0.3;
+}
+.announcements__icon {
+  width: 80px !important;
+  height: 80px !important;
+}
+.announcements_text {
+  width: 60%;
+  height: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+.announcements_text > p {
+  font-family: "Josephin Sans 40";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+}

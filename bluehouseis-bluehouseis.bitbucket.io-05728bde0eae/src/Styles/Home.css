@@ -1,0 +1,31 @@
+.legend-min {
+  position: absolute;
+  top: 520px;
+  left: 20px;
+}
+
+.legend-max {
+  position: absolute;
+  top: 265px;
+  left: 20px;
+}
+
+.inner-div {
+  border-radius: 25px;
+  width: 230px;
+  padding: 14px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+
+
+
+/*# sourceMappingURL=Home.css.map */
+
+

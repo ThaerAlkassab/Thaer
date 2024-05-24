@@ -1,0 +1,117 @@
+.aboutus {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.aboutus__sidebar {
+  display: flex;
+  flex: 0.2;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: flex-end;
+}
+.aboutus__sidebar > h2 {
+  transform: rotate(-90deg);
+  margin-top: 30px;
+  font-family: "Oblik 40";
+}
+.aboutus__picture {
+  display: flex;
+  flex: 0.4;
+  flex-basis: 50vh;
+}
+
+.aboutus__pictureshow > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.figure {
+  width: 80%;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+.abaout_usborder {
+  width: 90%;
+  height: 80%;
+  border: 1px solid black;
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+}
+.aboutus__pictureshow {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.aboutus__info {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50vh;
+}
+.aboutus_infocontainer {
+  flex: 1;
+  width: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.aboutus__infotext {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.aboutus__infotext > p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5e748a;
+  font-family: "Josephin 24";
+}
+.aboutus__infobutton {
+  flex: 0.2;
+}
+.aboutus__infobutton > button {
+  width: 200px;
+  height: 60px;
+  font-family: "Josephin 18";
+  background: none;
+  border: 1px solid #073865;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #14202b;
+  margin-top: 20px;
+}
+.aboutus__infobutton > button:hover {
+  background: rgb(211, 204, 204);
+}
+.aboutus__pictureshow figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.aboutus__pictureshow figure:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

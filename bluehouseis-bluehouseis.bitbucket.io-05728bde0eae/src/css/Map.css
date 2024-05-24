@@ -1,0 +1,118 @@
+a[href^="http://maps.google.com/maps"]{display:none !important}
+    a[href^="https://maps.google.com/maps"]{display:none !important}
+    
+    .gmnoprint a, .gmnoprint span, .gm-style-cc {
+        display:none;
+    }
+    .gmnoprint div {
+        background:none !important;
+    }
+
+  #map {
+    height: 600px;
+    width: 100%;
+  }
+
+  #legend {
+    font-family: "PT Sans", sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 25px;
+    width: 200px;
+  }
+  
+  #weather {
+    font-family: "PT Sans", sans-serif;
+    color:#00366e;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 25px;
+    height: 160px;
+  }
+  
+  #weather h2 {
+      color:#00366e;
+      font-weight: normal;
+      margin: 0px;
+  }
+  
+  #weather h4 {
+    color:#00366e;
+  }
+  
+  #weather img {
+    height: 60px;
+    height: 60px;
+  }
+
+  #legend h4 {
+    color:#00366e;
+    margin: 5px;
+    width: 100%;
+  }
+  
+  #legend h4:hover{
+      cursor: pointer;
+  }
+
+  #legend img {
+    vertical-align: middle;
+  }
+  
+  #legend div {
+    align-items: center;
+  }
+  
+  .controlUI {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .controlText {
+      font-family: "PT Sans", sans-serif;
+      color:#00366e;
+      font-size: 32px;
+      padding: 5px;
+  }
+  
+    .zoomSeparator{
+      width: 40px;
+      border: 0px;
+      padding:0px;
+      margin:0px;
+  }
+  
+  .fullscreenControlUI{
+     background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .mapTypeUI{
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .customMapTypeDiv{
+    display: flex;
+    flex-direction: row;
+  }

@@ -1,0 +1,281 @@
+@mixin relative-positioning($position, $top, $left) {
+  position: $position;
+  top: $top;
+  left: $left;
+}
+
+.legend-min {
+  @include relative-positioning(absolute, 520px, 20px);
+}
+
+.legend-max {
+  @include relative-positioning(absolute, 265px, 20px);
+}
+.map-root {
+  position: relative;
+  margin-bottom: 120px;
+  width: 100%;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 812px){
+  .map-root {
+    position: center;
+    margin-bottom: 120px;
+    width: 125%;
+  }
+}
+@media only screen and (device-width: 1024px){
+  .map-root {
+    position: center;
+    margin-bottom: 120px;
+    width: 120%;
+  }
+}
+.inner-div {
+  border-radius: 25px;
+  width: 100%;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 500;
+  background-color: white;
+  user-select: none;
+}
+.legend {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+  width: 19vw;
+  cursor: pointer;
+}
+.legend-button,
+.clicked-legend-button {
+  padding: 0 26px;
+  font-family: "Maven Pro", sans-serif;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #3b5998;
+  background: #ffffff;
+  border-radius: 9px;
+  text-align: center;
+  align-items: baseline;
+  line-height: 59px;
+  img {
+    margin-bottom: 3px;
+  }
+}
+.legend-button {
+  img {
+    transform: rotate(90deg);
+  }
+}
+.clicked-legend-button {
+  border-radius: 0 0 9px 9px !important;
+}
+
+///////////////////////////////////////////////////////////@at-root
+
+@keyframes goUp {
+  from {
+    height: 0;
+  }
+  to {
+    height: 22px;
+  }
+}
+
+.legend-max-1 {
+  width: 100%;
+  padding: 16px 26px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #fff;
+  border-radius: 9px 9px 0 0;
+}
+
+.weather {
+  position: absolute;
+  left: 348px;
+  color: #00366e;
+  background: #fff;
+  padding: 10px 20px 15px;
+  border-radius: 9px;
+  min-height: 100px;
+  min-width: 120px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  bottom: 35px;
+  align-items: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.city-icon {
+  width: 60px;
+  margin: -3px auto -12px;
+}
+
+.temp {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.location {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.legand-item {
+  animation: goUp 0.5s;
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  p {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  img {
+    width: 14px;
+    height: 21px;
+  }
+}
+
+.gmnoprint:first-child {
+  margin: 30px 35px !important;
+  .gm-style-mtc:first-child {
+    button {
+      width: 138px !important;
+    }
+  }
+  .gm-style-mtc:nth-child(2) {
+    button {
+      width: 146px !important;
+    }
+  }
+  .gm-style-mtc {
+    margin-right: 17px;
+    button {
+      font-family: "Maven Pro", sans-serif !important ;
+      font-size: 18px !important;
+      font-weight: 400 !important;
+      line-height: 22px !important;
+      color: #3b5998 !important;
+      height: 59px !important;
+      border-radius: 9px !important;
+    }
+    ul {
+      width: 100%;
+      border-radius: 9px !important;
+      margin-top: 5px !important;
+      li {
+        width: 100%;
+        border-radius: 9px;
+      }
+    }
+  }
+}
+.gm-svpc {
+  display: none;
+}
+
+.gm-bundled-control-on-bottom {
+  bottom: 220px !important;
+  right: 58px !important;
+  .gmnoprint {
+    div {
+      :first-child {
+        img {
+          width: 32px !important;
+          height: 32px !important;
+          content: url(../images/map/carbon_add.png) !important;
+        }
+      }
+      :nth-child(3) {
+        img {
+          width: 32px !important;
+          height: 32px !important;
+          content: url(../images/map/carbon_subtract.png) !important;
+        }
+      }
+    }
+    div:first-child {
+      border-radius: 9px !important;
+      background: #ffffff !important;
+      width: 58px !important;
+      height: 117px !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+      div {
+        width: 100% !important;
+      }
+      button {
+        border-radius: 9px;
+        width: 100% !important;
+        height: 50% !important;
+      }
+    }
+  }
+}
+
+.gm-fullscreen-control {
+  width: 58px !important;
+  height: 62px !important;
+  background: #ffffff !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 9px !important;
+  margin: 30px 35px !important;
+  img {
+    content: url("../images/map/fullscreen.png") !important;
+    width: 28.58px !important;
+    height: 28.58px !important;
+  }
+}
+.gm-style-cc {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .gm-bundled-control-on-bottom,
+  .gm-fullscreen-control,
+  .weather,
+  .gmnoprint {
+    display: none;
+  }
+  .legend-button,
+  .clicked-legend-button {
+    padding: 0ch;
+    font-size: 11px;
+    line-height: 29px;
+    img {
+      margin-bottom: 0px;
+      content: url("../images/map/small-arow.jpg");
+      margin-left: 5px;
+    }
+  }
+  .legend-button {
+    img {
+      transform: rotate(0deg);
+    }
+  }
+  .clicked-legend-button {
+    img {
+      transform: rotate(-90deg);
+    }
+  }
+  .legend-max-1 {
+    padding: 8px 8px 3px;
+    width: unset;
+  }
+  .map-root {
+    margin-bottom: 53px;
+  }
+  .legend {
+    width: 32.3vw;
+  }
+}

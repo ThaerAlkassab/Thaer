@@ -1,0 +1,17 @@
+.App {
+  width: 100%;
+}
+.body__announcements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  margin-top: 100px;
+}
+.Line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid rgb(146, 146, 228);
+
+  margin-top: 10px;
+}

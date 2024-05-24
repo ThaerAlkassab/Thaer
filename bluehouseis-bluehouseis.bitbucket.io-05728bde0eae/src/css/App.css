@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+.test-heading {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.test-heading > a {
+  font-size: 20px;
+  margin-right: 300px;
+}

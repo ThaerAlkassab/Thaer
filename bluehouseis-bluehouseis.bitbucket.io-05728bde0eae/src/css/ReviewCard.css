@@ -1,0 +1,60 @@
+.reviewCard {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 20px;
+}
+.reviewCardPaper {
+  box-shadow: none !important;
+}
+.reviewCard_top {
+  display: flex;
+  flex: 0.2;
+  font-weight: 200;
+  font-style: normal;
+}
+.reviewCard_center {
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+  justify-content: center;
+}
+.reviewCard_bottom {
+  display: flex;
+  flex: 0.2;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.5vw;
+  justify-content: flex-end;
+  color: #a5a9ac;
+  font-family: "Josephin 24";
+}
+.reviewCard_quotes {
+  width: 70px !important;
+  height: 70px !important;
+  color: #babcbd;
+  font-family: "Josephin 24";
+}
+.reviewCard_centertext {
+  font-style: normal;
+  width: 70%;
+  height: 50%;
+  font-size: 0.7vw;
+  text-align: left;
+  color: #a5a9ac;
+  font-family: "Josephin 22";
+}
+.reviewCard:hover {
+  transform: rotateX(10deg);
+  transform: perspective(100px);
+  transform: rotate(3deg);
+  transform: perspective-origin-x(56%);
+  box-shadow: 10px 10px #888888;
+}
+@media only screen and (max-width: 600px) {
+  .reviewCard_quotes {
+    width: 20px !important;
+    height: 20px !important;
+    color: #babcbd;
+  }
+}

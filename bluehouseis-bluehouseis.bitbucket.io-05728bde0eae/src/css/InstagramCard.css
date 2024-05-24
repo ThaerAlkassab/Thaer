@@ -1,0 +1,30 @@
+.instagramCard {
+  width: 100%;
+  height: 400px;
+
+  color: white;
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+}
+.instagramCard > figure > {
+  width: 97%;
+  height: 90%;
+  background: #fff;
+  overflow: hidden;
+}
+.instagramCard > figure > img {
+  width: 90%;
+  margin: 10px;
+  height: 99%;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.instagramCard > figure:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

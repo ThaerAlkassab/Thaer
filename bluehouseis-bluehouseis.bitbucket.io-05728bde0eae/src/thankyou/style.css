@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Oblik";
+    src: url("assets/fonts/Oblik_Bold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+.head {
+font-family: 'Oblik', sans-serif !important;
+font-size: 40px !important;
+text-transform: uppercase;
+color: #00366e;
+}
+
+
+
+/*************main**************/
+
+.logo {
+padding-bottom: 80px;
+}
+.blk_top p {
+font-size: 27px;
+font-weight: bold;
+color: #00366e;
+margin-bottom: 0;
+}
+.blk_top .img_blk {
+padding-top: 50px;
+padding-bottom: 60px;
+}
+.blk_btm {
+margin-top: 110px;
+}
+.blk_btm p {
+font-size: 26px;
+font-weight: normal;
+color: #00366e;
+}
+.blk_btm ul {
+padding-top: 20px;
+}
+.blk_btm li {
+margin: 0 20px;
+align-self: center;
+}
+.blk_btm .button {
+font-family: 'Oblik', sans-serif !important;
+font-size: 16px;
+text-transform: uppercase;
+width: 121px;
+background-color: #00366e;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 44px;
+color: #fff;
+border-radius: 50px;
+text-decoration: none;
+}
+
+@media (max-width: 991px) {
+.head {
+    font-size: 30px !important;
+}
+.blk_top p, .blk_btm p {
+    font-size: 20px;
+}
+.blk_btm {
+    margin-top: 80px;
+}
+}
+
+@media (max-width: 767px) {
+.logo {
+    padding-bottom: 40px;
+    padding-top: 15px;
+    text-align: center !important;
+}
+.blk_top .img_blk {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.blk_btm ul {
+    display: inline-block !important;
+    list-style-position: inside;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    padding-top: 0;
+}
+.blk_btm li {
+    margin: 0;
+    padding: 10px 0px;
+}
+.blk_btm {
+    margin-top: 40px;
+}
+}

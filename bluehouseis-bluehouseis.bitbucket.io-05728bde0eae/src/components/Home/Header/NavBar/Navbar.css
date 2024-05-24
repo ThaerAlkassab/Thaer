@@ -1,0 +1,14 @@
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  border-top: 1px solid rgba(128, 128, 128, 0.226);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}

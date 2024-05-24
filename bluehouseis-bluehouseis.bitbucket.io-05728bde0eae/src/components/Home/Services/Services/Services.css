@@ -1,0 +1,28 @@
+@media screen and (min-width: 600) {
+
+.service {
+
+  padding: 20px;
+}
+}
+.services {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 30px;
+}
+
+
+.services-container {
+  padding: 20px;
+  margin: 20px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+}

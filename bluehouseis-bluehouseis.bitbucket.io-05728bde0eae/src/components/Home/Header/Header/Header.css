@@ -1,0 +1,13 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container a {
+    text-align: center;
+}
+
+.logo {
+    width: 15vw;
+    padding: 10px
+}

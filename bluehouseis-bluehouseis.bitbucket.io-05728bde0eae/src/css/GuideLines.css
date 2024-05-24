@@ -1,0 +1,32 @@
+.guidelines {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.guidelines__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.guidelines_info {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.guidelines_info > p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+}
+.guidelines_info > h1 {
+  font-family: "Oblik";
+  font-style: normal;
+  margin-top: 100px;
+  font-size: 36px;
+  line-height: 25px;
+}

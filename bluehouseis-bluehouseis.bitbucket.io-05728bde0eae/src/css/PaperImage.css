@@ -1,0 +1,95 @@
+.paper__image {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  text-align: left;
+}
+.paper__text {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  opacity: 0;
+}
+.paper__image:hover > .paper__text,
+.paper__image:hover > .paper__button {
+  opacity: 1;
+  position: absolute;
+  animation: fragment3BeforeAnimationMove 3s;
+}
+.paper__text > ul > li {
+  margin-top: 30px;
+  color: white;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 0.1rem;
+  font-family: "Josephin 20";
+}
+.paper__image > figure {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+.paper__image > figure > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.paper__image_text {
+  width: 60%;
+  height: 50%;
+}
+.paper_body {
+  display: flex;
+  flex-direction: column;
+}
+.paper__button {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  width: 180px;
+  height: 50px;
+  background: none;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 20px;
+  border: 1px solid white;
+  font-family: "Josephin 18";
+}
+.paper__button:hover {
+  background: rgb(131, 131, 131);
+}
+.paper_body_text {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 50px;
+  margin-left: 10px;
+  font-family: "Josephin 20";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 50px;
+}
+@keyframes fragment3BeforeAnimationMove {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+  }
+}

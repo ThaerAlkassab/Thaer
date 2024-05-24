@@ -1,0 +1,39 @@
+.footer-container h3 {
+    text-align: left;
+    padding-left: 40px;
+  }
+  
+  .grid {
+    height: 25rem;
+  
+    line-height: 1;
+  }
+  
+  .footer-container ul li {
+    list-style: none;
+    line-height: 1;
+    padding: 5px 0;
+  }
+  
+  .footer-container ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-container ul li div {
+    padding-right: 10px;
+  }
+  
+  .footer-container .form {
+    margin-bottom: 40px;
+    padding: 40px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-container .about-us-container li {
+    line-height: 0.7;
+    padding-left: 5px;
+  }
+  

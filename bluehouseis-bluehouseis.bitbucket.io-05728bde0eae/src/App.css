@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: Oblik;
+  font-weight: bold;
+  src: url("./fonts/Oblik-Bold.otf") format("opentype");
+}
+* {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow: overlay;
+}
+
+.MuiIconButton-root:hover {
+  background-color: unset !important;
+}
+
+.outLinedButton {
+  padding: 14px 12px 11px !important;
+  min-width: 180px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background: transparent;
+  width: fit-content;
+  margin: 0 auto;
+  line-height: 24px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.outLinedButton:hover {
+  background: linear-gradient(
+      180deg,
+      #04376f 99.99%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffffff;
+  color: #ffffff;
+  border-color: #04376f !important;
+}
+
+.sideLineTitle {
+  width: fit-content;
+  height: fit-content;
+  font-size: 24px;
+  transform: rotate(-90deg);
+  font-style: normal;
+  margin-top: 40px;
+  font-family: Josefin Sans;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.App {
+  padding: 0 12vw 0 7.6vw;
+  margin-bottom: 100px;
+  margin-top: 120px;
+}
+
+.clickable:hover {
+  cursor: url(./images/cursor.svg), auto;
+}
+
+.MuiInputBase-input:focus {
+  outline: unset !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+  border-width: 1px !important ;
+}
+
+@media (max-width: 1280px) {
+  .App {
+    padding: 0 2.63vw;
+  }
+}
+@media (max-width: 600px) {
+  .App {
+    margin-top: -125px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .outLinedButton {
+    padding: 8px 20px 5px !important;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.hidden {
+  display: none;
+}

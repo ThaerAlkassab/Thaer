@@ -1,0 +1,80 @@
+{
+  "Downtown Reyjavik": "",
+  "Nature tours": [
+    "https://bluehouse.tourdesk.is/Tour/Index/2/?tag=23&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=&region=0&durationType=undefined",
+    "https://bluehouse.is/blog2/category/Nature/"
+  ],
+  "Horse riding": [
+    "https://bluehouse.tourdesk.is/Tour/Index/0/?tag=17&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=&region=0&durationType=undefined"
+  ],
+
+  "Hot springs nearby": [
+    "https://bluehouse.is/blog2/hot-springs-near-reykjavik/",
+    "https://bluehouse.tourdesk.is/Tour/Index/0/?tag=18&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=&region=0&durationType=undefined"
+  ],
+  "Whale spotting/watching": [
+    "https://bluehouse.tourdesk.is/Tour/Index/1/?tag=34&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=&region=0&durationType=undefined"
+  ],
+  "Safari tour": [
+    "https://bluehouse.tourdesk.is/Tour/Index/0/?tag=&attraction=&sort=0&pt=undefined&dt=undefined&vendor=17&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=&region=0&durationType=undefined"
+  ],
+  "Guided tour": [
+    "https://bluehouse.tourdesk.is/Tour/Index/4/?tag=&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=Guided%20&region=0&durationType=undefined"
+  ],
+  "Paddleboarding": [
+    "https://bluehouse.tourdesk.is/Tour/Index/1/?tag=&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=paddle&region=0&durationType=undefined"
+  ],
+  "Aurora Planetarium": [
+    "https://bluehouse.tourdesk.is/Tour/Index/1/?tag=&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=Planetarium&region=0&durationType=undefined"
+  ],
+  "Museum visit": [
+    "https://bluehouse.tourdesk.is/Tour/Index/0/?tag=210&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=&region=0&durationType=undefined",
+    "https://bluehouse.is/blog2/national-museum-iceland-history/",
+    "https://bluehouse.is/blog2/volcano-museum-iceland/"
+  ],
+  "Covid safety/protocols": [
+    "https://bluehouse.is/blog2/updated-covid-19-precautions/"
+  ],
+  "Airport pickup/taxi/shuttle": [
+    "https://bluehouse.tourdesk.is/Transportation"
+  ],
+  "Custom tours/packages": "",
+  "Shuttle service": "",
+  "Private/Shared bathroom": "",
+  "Family suite": ["https://www.beds24.com/booking2.php?propid=3578"],
+  "Cancellation policy": "",
+  "Extra beds": "",
+  "family room": ["https://www.beds24.com/booking2.php?propid=3578"],
+  "Lighthouse/seaside room": "",
+  "Private terrace/kitchen": [
+    "https://www.beds24.com/booking2.php?propid=3578"
+  ],
+  "Family/twin room": ["https://www.beds24.com/booking2.php?propid=3578"],
+  "Homecooked meal": ["https://bluehouse.is/blog2/our-breakfast/"],
+  "Zoo trip": [
+    "https://bluehouse.tourdesk.is/Tour/Index/0/?tag=&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=street%20food&region=0&durationType=undefined"
+  ],
+  "Iceland street food": [
+    "https://bluehouse.tourdesk.is/Tour/Index/0/?tag=&attraction=&sort=0&pt=undefined&dt=undefined&vendor=&onlyFavorite=false&travelmethod=&privateFilter=false&searchParameter=street%20food&region=0&durationType=undefined",
+    "https://bluehouse.is/blog2/food-drinks-in-reykjavik-iceland/"
+  ],
+  "Souvenir shops": [
+    "https://bluehouse.tourdesk.is/Tour/Item/23178/1/Reykjavik_City_Card_-_pick_up_at_What's_On_Laugavegur_5"
+  ],
+  "Shopping spots": [
+    "https://bluehouse.tourdesk.is/Tour/Item/5795/1/Hop_On_-_Hop_Off_-_City_Sightseeing_24_hours"
+  ],
+  "Car rental": ["https://bluehouse.tourdesk.is/CarRental"],
+  "Contact us": "/#footer",
+  "About us": "/About-Us",
+  "recommendations": "/#recommendations",
+  "gallery/pictures/images": "/view-gallery",
+  "Blue house": "https://bluehouse.is/blog2/?s=blue+House",
+  "Green House": "https://bluehouse.is/blog2/?s=Green+House",
+  "Grótta Northern lights house": "https://bluehouse.is/blog2/?s=Grotta+Northern+Lights",
+  "Surroundings": ["https://bluehouse.is/blog2/activities/"],
+  "Activities": "",
+  "Tours": ["https://bluehouse.tourdesk.is/Tour/Index/0"],
+  "Help":"/#footer",
+  "Booking": ["https://beds24.com/booking2.php?propid=3578&layout=1"]
+}

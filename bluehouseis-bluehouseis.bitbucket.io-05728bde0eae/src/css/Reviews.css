@@ -1,0 +1,53 @@
+.reviews {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.reviwes__sidebar {
+  display: flex;
+  flex: 0.11;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 70px;
+  padding-right: -20px;
+}
+.reviwes__sidebar > h2 {
+  transform: rotate(-90deg);
+
+  font-family: Oblik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  /* or 208% */
+
+  letter-spacing: 0.1em;
+}
+.reviwes__content {
+  display: flex;
+  flex: 0.8;
+}
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+.reviwes__content {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .reviwes__content {
+    display: flex;
+    flex: 0.9;
+    height: 100%;
+  }
+  .reviwes__content {
+    height: 110%;
+    width: 110%;
+    display: flex;
+  }
+}

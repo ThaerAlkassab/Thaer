@@ -1,0 +1,427 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<style type="text/css">
+  a[href^="http://maps.google.com/maps"]
+  {
+    display: none !important;
+  }
+  a[href^="https://maps.google.com/maps"]
+  {
+    display: none !important;
+  }
+
+  .gmnoprint a,
+  .gmnoprint span,
+  .gm-style-cc {
+    display: none;
+  }
+  .gmnoprint div {
+    background: none !important;
+  }
+
+  #map {
+    height: 600px;
+    width: 100%;
+  }
+
+  #legend {
+    font-family: "PT Sans", sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 25px;
+    width: 200px;
+  }
+
+  #weather {
+    font-family: "PT Sans", sans-serif;
+    color: #00366e;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 25px;
+    height: 160px;
+  }
+
+  #weather h2 {
+    color: #00366e;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+  #weather h4 {
+    color: #00366e;
+  }
+
+  #weather img {
+    height: 60px;
+    height: 60px;
+  }
+
+  #legend h4 {
+    color: #00366e;
+    margin: 5px;
+    width: 100%;
+  }
+
+  #legend h4:hover {
+    cursor: pointer;
+  }
+
+  #legend img {
+    vertical-align: middle;
+  }
+
+  #legend div {
+    align-items: center;
+  }
+
+  .controlUI {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+  }
+
+  .controlText {
+    font-family: "PT Sans", sans-serif;
+    color: #00366e;
+    font-size: 32px;
+    padding: 5px;
+  }
+
+  .zoomSeparator {
+    width: 40px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .fullscreenControlUI {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .mapTypeUI {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .customMapTypeDiv {
+    display: flex;
+    flex-direction: row;
+  }
+</style>
+<script>
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 13,
+      disableDefaultUI: true,
+      center: new google.maps.LatLng(64.147917, -21.952797),
+      mapTypeId: "roadmap",
+    });
+    const icons = {
+      blue_house: {
+        name: "Blue House B&B",
+        icon: "http://bluehouse.is/blog2/wp-content/uploads/2021/04/icon_house_1-e1619517470907.png",
+      },
+      bus_station: {
+        name: "Bus Station",
+        icon: "http://bluehouse.is/blog2/wp-content/uploads/2021/04/icon_bus_2-e1619518143914.png",
+      },
+      public_swimmingpool: {
+        name: "Public Swimming pool",
+        icon: "http://bluehouse.is/blog2/wp-content/uploads/2021/04/icon_swimming_pool-e1619518168502.png",
+      },
+      supermarket: {
+        name: "Supermarket",
+        icon: "http://bluehouse.is/blog2/wp-content/uploads/2021/04/icon_supermarket-e1619518193545.png",
+      },
+    };
+    const features = [
+      {
+        position: new google.maps.LatLng(64.154073, -21.998381),
+        type: "blue_house",
+      },
+      {
+        position: new google.maps.LatLng(64.148199, -21.950535),
+        type: "bus_station",
+      },
+      {
+        position: new google.maps.LatLng(64.14473, -21.962179),
+        type: "public_swimmingpool",
+      },
+      {
+        position: new google.maps.LatLng(64.14562, -21.93445),
+        type: "supermarket",
+      },
+    ];
+    features.forEach((feature) => {
+      new google.maps.Marker({
+        position: feature.position,
+        icon: icons[feature.type].icon,
+        map: map,
+      });
+    });
+    const legend = document.getElementById("legend");
+    const weather = document.getElementById("weather");
+
+    for (const key in icons) {
+      const type = icons[key];
+      const name = type.name;
+      const icon = type.icon;
+      const div = document.createElement("div");
+      div.style.display = "none";
+
+      div.innerHTML = '<img src="' + icon + '"> ' + name;
+      legend.insertBefore(div, legend.childNodes[0]);
+    }
+    map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(legend);
+    map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(weather);
+
+    //Zoom controls
+    var customZoomInControlDiv = document.createElement("div");
+    customZoomInControlDiv.classList.add("controlUI");
+    var customZoomInControl = new CustomZoomInControl(
+      customZoomInControlDiv,
+      map
+    );
+
+    customZoomInControlDiv.index = 1;
+    map.controls[google.maps.ControlPosition.BOTTOM_RIGHT].push(
+      customZoomInControlDiv
+    );
+
+    var customMapTypeDiv = document.createElement("div");
+
+    var customMapTypes = new CustomMapTypes(customMapTypeDiv, map);
+
+    var customFullScreenToggleDiv = document.createElement("div");
+
+    var customFullScreenToggle = new CustomFullScreenToggle(
+      customFullScreenToggleDiv,
+      map
+    );
+  }
+
+  function CustomZoomInControl(controlDiv, map) {
+    var controlUIPlus = document.createElement("div");
+    controlDiv.appendChild(controlUIPlus);
+
+    var separator = document.createElement("div");
+    controlDiv.appendChild(separator);
+    separator.classList.add("zoomSeparator");
+    separator.innerHTML =
+      "<img src='http://bluehouse.is/blog2/wp-content/uploads/2021/05/legend_zoom_separator.png'/>";
+
+    var controlUIMinus = document.createElement("div");
+    controlDiv.appendChild(controlUIMinus);
+
+    var controlText = document.createElement("div");
+    controlText.classList.add("controlText");
+    controlText.innerHTML = "+";
+    controlUIPlus.appendChild(controlText);
+
+    var controlText = document.createElement("div");
+    controlText.classList.add("controlText");
+    controlText.innerHTML = "-";
+    controlUIMinus.appendChild(controlText);
+
+    google.maps.event.addDomListener(controlUIPlus, "click", function () {
+      map.setZoom(map.getZoom() + 1);
+    });
+
+    google.maps.event.addDomListener(controlUIMinus, "click", function () {
+      map.setZoom(map.getZoom() - 1);
+    });
+  }
+
+  function CustomMapTypes(customMapTypeDiv, map) {
+    customMapTypeDiv.classList.add("customMapTypeDiv");
+
+    var mapTypeDiv = document.createElement("div");
+    mapTypeDiv.classList.add("mapTypeUI");
+    customMapTypeDiv.appendChild(mapTypeDiv);
+
+    var mapTypeText = document.createElement("div");
+    mapTypeText.classList.add("controlText");
+    mapTypeText.innerHTML = "Map";
+    mapTypeDiv.appendChild(mapTypeText);
+
+    mapTypeText.onclick = function () {
+      customMapTypeDiv.classList.add("maptype-control-is-map");
+      customMapTypeDiv.classList.remove("maptype-control-is-satellite");
+      map.setMapTypeId("roadmap");
+    };
+
+    var satelliteTypeDiv = document.createElement("div");
+    satelliteTypeDiv.classList.add("mapTypeUI");
+    customMapTypeDiv.appendChild(satelliteTypeDiv);
+
+    var satelliteTypeText = document.createElement("div");
+    satelliteTypeText.classList.add("controlText");
+    satelliteTypeText.innerHTML = "Satellite";
+    satelliteTypeDiv.appendChild(satelliteTypeText);
+
+    satelliteTypeText.onclick = function () {
+      customMapTypeDiv.classList.remove("maptype-control-is-map");
+      customMapTypeDiv.classList.add("maptype-control-is-satellite");
+      map.setMapTypeId("hybrid");
+    };
+    map.controls[google.maps.ControlPosition.LEFT_TOP].push(customMapTypeDiv);
+  }
+
+  function CustomFullScreenToggle(customFullScreenToggleDiv, map) {
+    const elementToSendFullscreen = map.getDiv().firstChild;
+
+    var fullscreenControl = document.createElement("div");
+    fullscreenControl.innerHTML =
+      '<img src="http://bluehouse.is/blog2/wp-content/uploads/2021/05/fullscreen-button.png">';
+    fullscreenControl.id = "fullscreenControl";
+    fullscreenControl.classList.add("fullscreenControlUI");
+    customFullScreenToggleDiv.appendChild(fullscreenControl);
+    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(
+      customFullScreenToggleDiv
+    );
+
+    fullscreenControl.onclick = function () {
+      if (isFullscreen(elementToSendFullscreen)) {
+        exitFullscreen();
+      } else {
+        requestFullscreen(elementToSendFullscreen);
+      }
+    };
+
+    document.onwebkitfullscreenchange =
+      document.onmsfullscreenchange =
+      document.onmozfullscreenchange =
+      document.onfullscreenchange =
+        function () {
+          if (isFullscreen(elementToSendFullscreen)) {
+            fullscreenControl.classList.add("is-fullscreen");
+          } else {
+            fullscreenControl.classList.remove("is-fullscreen");
+          }
+        };
+  }
+
+  function isFullscreen(element) {
+    return (
+      (document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement) == element
+    );
+  }
+
+  function requestFullscreen(element) {
+    var fullscreenControl = document.getElementById("fullscreenControl");
+    fullscreenControl.innerHTML =
+      '<img src="http://bluehouse.is/blog2/wp-content/uploads/2021/05/exit-fullscreen-button.png">';
+
+    if (element.requestFullscreen) {
+      element.requestFullscreen();
+    } else if (element.webkitRequestFullScreen) {
+      element.webkitRequestFullScreen();
+    } else if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.msRequestFullScreen) {
+      element.msRequestFullScreen();
+    }
+  }
+
+  function exitFullscreen() {
+    var fullscreenControl = document.getElementById("fullscreenControl");
+    fullscreenControl.innerHTML =
+      '<img src="http://bluehouse.is/blog2/wp-content/uploads/2021/05/fullscreen-button.png">';
+
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
+
+  function legendClick() {
+    var legend = document.getElementById("legend");
+    var children = legend.children;
+    if (legend.children[0].style.display === "none") {
+      for (var i = 0; i < children.length; i++) {
+        if (i < children.length - 1) {
+          children[i].style.display = "flex";
+        } else {
+          children[i].innerHTML = "Legend ^";
+        }
+      }
+    } else {
+      for (var i = 0; i < children.length; i++) {
+        if (i < children.length - 1) {
+          children[i].style.display = "none";
+        } else {
+          children[i].innerHTML = "Legend >";
+        }
+      }
+    }
+  }
+
+  function displayWeather() {
+    fetch(
+      "https://api.openweathermap.org/data/2.5/weather?q=Reykjavik&appid=ea5ec3c49c438a83e8c7e8719ff84445&units=metric"
+    )
+      .then(function (resp) {
+        return resp.json();
+      })
+      .then(function (data) {
+        processWeatherData(data);
+      });
+  }
+
+  function processWeatherData(data) {
+    const weatherSection = document.getElementById("weather");
+    const { main, weather } = data;
+    const icon = `https://openweathermap.org/img/wn/${weather[0]["icon"]}@2x.png`;
+
+    const div = document.createElement("div");
+    const weatherHtml = ` 
+      <div class="city-temp"><h2>${Math.round(main.temp)}°C</h2>
+      </div>
+    <img class="city-icon" src=${icon} alt=${weather[0]["main"]}/>
+      `;
+
+    div.innerHTML = weatherHtml;
+    weatherSection.insertBefore(div, weatherSection.childNodes[0]);
+  }
+
+  window.onLoad = displayWeather();
+</script>
+<body>
+  <div id="map"></div>
+  <div id="legend"><h4 onclick="legendClick()">Legend ></h4></div>
+  <div id="weather"><h4>Reykjavik, Iceland</h4></div>
+
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-LWuIlquldSBDqQWlgr3nJE8h3AMTDCE
+&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+</body>

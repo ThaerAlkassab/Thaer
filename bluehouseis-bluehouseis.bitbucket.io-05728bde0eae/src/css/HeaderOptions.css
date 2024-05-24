@@ -1,0 +1,31 @@
+.headerOption {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 240px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+  cursor: pointer;
+}
+.headerOption > h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+
+  margin-top: 15px;
+  object-fit: contain;
+}
+.headerOption:hover {
+  background: linear-gradient(
+      180deg,
+      #04376f 99.99%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffffff;
+  width: 250px;
+  height: 60px;
+  color: white;
+}

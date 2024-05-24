@@ -1,0 +1,103 @@
+{
+    "rooms": [
+        {
+            "info_list":[
+                "Shared Bathroom",
+                "Budget Friendly",
+                "Cozy Room",
+                "Free Fast Wifi"
+            ],
+            "icons_list": [
+                "Queen Sized Bed",
+                "Netflix TV",
+                "Self Service Continental Breakfast",
+                "Shared Bathroom"
+            ]
+        },
+        {
+            "name": "2",
+            "info_list":[
+                "Shared Bathroom",
+                "Twin Beds",
+                "More Spacious",
+                "All Rooms Face Seaside"
+            ],
+            "icons_list": [
+                "King/Twin Sized Bed",
+                "Netflix TV",
+                "Self Service Continental Breakfast",
+                "Shared Bathroom"
+            ]
+        },
+        {
+            "name": "3",
+            "info_list":[
+                "Shared Bathroom",
+                "Twin beds",
+                "Ideal for 3"
+            ],
+            "icons_list": [
+                "Queen/Twin Beds",
+                "Netflix TV",
+                "Self Service Continental Breakfast",
+                "Shared Bathroom"
+            ]
+        },
+        {
+            "name": "Economy Double Room",
+            "info_list":[
+                "Shared Bathroom",
+                "Budget friendly"
+            ],
+            "icons_list": [
+                "King Sized Bed + Sofa Bed",
+                "Netflix TV",
+                "Cereal Breakfast",
+                "Shared Bathroom"
+            ]
+        },
+        {
+            "name": "Economy Double Room",
+            "info_list":[
+                "Private Bathroom",
+                "Bed&living room",
+                "Sea view"
+            ],
+            "icons_list": [
+                "King Sized Bed + Sofa Bed",
+                "Private dining area",
+                "Self Service Continental Breakfast",
+                "Private Bathroom"
+            ]
+        },
+        {
+            "name": "Economy Double Room",
+            "info_list":[
+                "Private Bathroom",
+                "Ideal for small groups",
+                "Surrounded by garden"
+            ],
+            "icons_list": [
+                "2 Bedrooms + 1 Sofa Bed",
+                "Private kitchenette",
+                "Cereal Breakfast",
+                "Private Bathroom"
+            ]
+        },
+        {
+            "name": "Economy Double Room",
+            "info_list":[
+                "Private Bathroom",
+                "Independent apartment",
+                "Ideal for large groups",
+                "Incredible view"
+            ],
+            "icons_list": [
+                "3 Bedrooms + 3 Sofa Beds",
+                "Private kitchen",
+                "Cereal Breakfast",
+                "2 Private Bathrooms"
+            ]
+        }
+    ]
+}

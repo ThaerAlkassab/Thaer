@@ -1,0 +1,15 @@
+.rule {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 50px;
+}
+.rule > p {
+  margin-left: 50px;
+  font-family: "Josefin Sans 20";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
